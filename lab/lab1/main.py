@@ -27,12 +27,12 @@ plt.plot(x,z,':',linewidth='2',label='g(x)=log(x)',marker='v',ms=4)
 plt.plot(x,k,'-',label='h(x)=1.05^x',marker='^',ms=4)
 plt.plot(x,p,'-.',label='k(x)=100/x',marker='o',ms=4)
 
-plt.text(-3, 0.75, r'$cos(x)$',
-         family = 'Times New Roman', # 标注文本字体
-         fontsize = 5, # 文本大小
-         fontweight = 'bold', # 字体粗细
-         color = 'green' # 文本颜色
-)
+# plt.text(-3, 0.75, r'$cos(x)$',
+#          family = 'Times New Roman', # 标注文本字体
+#          fontsize = 5, # 文本大小
+#          fontweight = 'bold', # 字体粗细
+#          color = 'green' # 文本颜色
+# )
 
 plt.legend(loc='best')
 plt.show()
